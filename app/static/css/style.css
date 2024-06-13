@@ -1,49 +1,107 @@
-html {
-    font-size: 16px;
+:root {
+    --color1: #05b1b1;
+    --color2: #52339a;
 }
 
-body {
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: #000;
-    background-color: #fff;
-    min-width: 320px;
+header, section {
+    padding: 100px 0;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+header, footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(277deg, rgba(00,0,0,1) 3%, rgba(87, 162, 96, 1) 100%);
 }
 
-section {
-
+header h1, p {
+    color: #bfe2ff;
+}
+header p {
+    font-size: 1em;
+}
+.advantages, .feedback, .price {
+    background-color: #eee;
 }
 
-/* What`sUp widget */
-.whats-up-widget {
-    margin-bottom: 1em;
-}
-/* What`sUp widget */
 
 
-/* Carousel */
-.my-carousel {
-    padding: 0;
+.btn-itd {
+    background-color: var(--color1);
+    color: var(--bs-white);
+    max-width: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 8px 30px;
+    transition: all o.2s ease;
 }
-.my-carousel .carousel-item {
+
+.btn-itd:hover {
+    background-color: var(--color2);
+    color: var(--bs-white);
+}
+/* Наши преимущества */
+
+.advantages i {
+    font-size: 25px;
+    color: var(---color2)
+}
+.c-circle {
+    margin: 0px auto 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid var(--color2);
     display: flex;
-    max-height: 700px;
+    justify-content: center;
+    align-items: center;
 }
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+/* Наши преимущества */
 
-.my-carousel .carousel-item img {
-    object-fit: cover;
+
+/* Почему нас выбирают */
+.why-me h5 {
+    padding: 50px;
+    border: 3px solid var(--color1);
 }
-/* Carousel */
-/* Footer */
-.footer {
-    margin-top: 20px;
-    text-align: center;
-    background-color: #FAFAD2;
+/* Почему нас выбирают */
+
+
+/* Обратная связь */
+.feedback h5 {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid var(--color2);
+    margin: 10px auto;
 }
-/* Footer */
+/* Обратная связь */
+
+/* Подвал */
+footer {
+    padding: 30px 0px;
+}
+footer h6 {
+    color: #eee;
+}
+/* Подвал */
+
+/* Цвет */
+.color1 {
+    color: var(--color1)
+}
+.color2 {
+    color: var(--color2)
+}
+.bg1 {
+    background-color: var(--color1)
+}
+.bg2 {
+    background-color: var(--color2)
+}
+/* Цвет */

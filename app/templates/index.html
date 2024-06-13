@@ -1,47 +1,258 @@
-{% extends 'base.html' %}
 
-{% block content %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Наплавляемая кровля</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/fontello.css">
+    <link rel="shortcut icon" type="image/x-icon" href="static/images/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <h1 class="text-center mb-3">Монтаж наплавляемой кровли в Воронеже</h1>
+              <p class="text-center mb-5"><i>До правильного решения остался один шаг!</i></p>
+              <a href="#feedback" class="btn btn-itd btn-lg text-uppercase">Позвонить</a>
+          </div>
+      </div>  
+    </div>  
+  </header>
+  <section class="advantages">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-center text-uppercase color1 mb-5">Наши преимущества</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="c-circle"><i class="icon-ok"></i></div>
+                  <h5 class="text-center">Гарантия</h5>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="c-circle"><i class="icon-thumbs-up"></i></div>
+                  <h5 class="text-center">Качество</h5>
+                  <div class="line"></div>
+              </div>
 
-<div class="container-fluid text-center">
-    <h1>Крыша и Кровля в Воронеже. Низкие цены и высокое качество!</h1>
-    <h2>8(920)424-70-11</h2>
-</div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="c-circle"><i class="icon-rouble"></i></div>
+                  <h5 class="text-center">Прозрачность цен</h5>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="c-circle"><i class="icon-stopwatch"></i></div>
+                  <h5 class="text-center">Скорость</h5>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="c-circle"><i class="icon-wrench"></i></div>
+                  <h5 class="text-center">Любая сложность работ</h5>
+                  <div class="line"></div>
+              </div>
 
-<div class="container-fluid text-center">
-    <p>Мы не вкладывали больших денег в сайт, поэтому чтобы не терять ваше время на просмотр
-    картинок, предлагаем вам позвонить нам или написать в WhatsApp.</p>
-    <div class="whats-up-widget">
-        <a aria-label="Напишите в WhatsApp" href="https://wa.me/79204698386"><img alt="Напишите в WhatsApp" src="static/images/whats_app_image.png" /></a>
-    </div>
-</div>
-<div class="container-fluid my-carousel">
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="c-circle"><i class="icon-users"></i></div>
+                  <h5 class="text-center">Ответственность</h5>
+                  <div class="line"></div>
+              </div>
+          </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="static/images/roof1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="static/images/roof2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="static/images/roof3.jpg" class="d-block w-100" alt="...">
-        </div>
+  </section>
+  <section class="why-me">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-center text-uppercase color2 mb-5">Почему нас выбирают</h2>
+              </div>
+          </div>
+          <div class="row mb-5">
+              <div class="col-md-6 col-sm-12">
+                <h5 class="text-center">Мы предоставляем полную гарантию на наши работы и материалы</h5>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <h5 class="text-center">Бесплатный выезд мастера на оценку стоимости работ</h5>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <h5 class="text-center">Работаем по договору и с любым видом оплат(нал, безнал)</h5>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <h5 class="text-center">Выходим на европейский уровень выполнения кровельных работ</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <a href="#feedback" class="btn btn-lg text-uppercase btn-itd">Написать в WhatsApp</a>
+              </div>
+          </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-</div>
+  </section>
+  <section class="price">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-center text-uppercase color1 mb-5">Цены</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <h5 class="text-center text-uppercase mb-3">Наплавляемая кровля</h5>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Единица измерения</th>
+                      <th scope="col">Стоимость</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Нанесение праймера</th>
+                      <td>кв.метр</td>
+                      <td>50 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Монтаж материала в один слой</th>
+                      <td>кв.метр</td>
+                      <td>от 150 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Монтаж примыканий до 60 см в один слой</th>
+                      <td>пог.метр</td>
+                      <td>от 150 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Монтаж воронок</th>
+                      <td>шт.</td>
+                      <td>2000 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Монтаж аэраторов</th>
+                      <td>шт.</td>
+                      <td>1500 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Демонтаж</th>
+                      <td>кв.метр</td>
+                      <td>от 200 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Стяжка с армировкой</th>
+                      <td>кв.метр</td>
+                      <td>от 350 руб.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Разуклонка керамзитом</th>
+                      <td>кв.метр</td>
+                      <td>от 300 руб.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="my-carousel">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-center text-uppercase color2 mb-5">Наши работы</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="static/images/img1.jpg" class="d-block w-100" alt="Рулоны для наплавляемой кровли" title="Рулоны для наплавляемой кровли">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Рулоны на готове!</h5>
+                        <p>Для укладки наплавляемой кровли используются самые качественные материалы</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="static/images/img2.jpg" class="d-block w-100" alt="Монтаж наплавляемой кровли" title="Монтаж наплавляемой кровли">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Укладка рулона.</h5>
+                        <p>Рулоны укладываются под высокой температурой с применением газовых балонов</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="static/images/img3.jpg" class="d-block w-100" alt="Объект с полукруглой крышой" title="Объект с полукруглой крышой">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Крыша полукругом.</h5>
+                        <p>Мы меняем кровлю на объектах разных форм.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="static/images/img4.jpg" class="d-block w-100" alt="Демонтаж наплавляемой кровли" title="Демонтаж наплавляемой кровли">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Демонтаж</h5>
+                        <p>Для демонтажа все средства хороши, а уж топор тем более.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="feedback" id="feedback">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="text-center text-uppercase color1 mb-5">Обратная связь</h2>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-6 col-sm-12 mb-3   ">
+                  <h4 class="text-center">Связаться по WhatsApp</h4>
+                  <a aria-label="Напишите в WhatsApp" href="https://wa.me/79204247011"><img src="static/images/whats_app_image.png" class="img-fluid mx-auto d-block"></a>
+              </div>
+               <div class="col-md-6 col-sm-12">
+                  <h4 class="text-center">Связаться по телефону</h4>
+                  <h5 class="text-center">8-920-424-70-11</h5>
+                  <h5 class="text-center">8-920-469-83-86</h5>
+              </div>
+          </div>
 
-
-{% endblock %}
+      </div>
+  </section>
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h6 class="text-center">АРС-Строй - строительство ещё никогда не было так доступно!</h6>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
