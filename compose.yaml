@@ -1,0 +1,20 @@
+networks:
+  network2:
+    name: network2
+services:
+  nginx2:
+    container_name: nginx2
+    image: nginx:stable
+    ports:
+      - 80:80
+    volumes:
+      - ./proxy/conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - network2
+    depends_on:
+      - flask2
+  flask2:
+    container_name: flask2
+    build: ./app
+    networks:
+      - network2
