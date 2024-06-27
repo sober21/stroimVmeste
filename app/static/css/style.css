@@ -22,8 +22,6 @@ header p {
     background-color: #eee;
 }
 
-
-
 .btn-itd {
     background-color: var(--color1);
     color: var(--bs-white);
@@ -90,6 +88,16 @@ footer h6 {
     color: #eee;
 }
 /* Подвал */
+
+/* ------------------------- О нас ---------------------------- */
+.about p {
+    color: black;
+}
+.about h1 {
+    margin-bottom: 30px;
+}
+/* ------------------------- О нас ---------------------------- */
+
 
 /* Цвет */
 .color1 {
