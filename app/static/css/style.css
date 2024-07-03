@@ -92,6 +92,10 @@ footer h6 {
 /* ------------------------- О нас ---------------------------- */
 .about {
     padding: 50 px 0;
+    background-image: url("../images/img1.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .about p {
     color: black;
@@ -100,6 +104,10 @@ footer h6 {
 }
 .about h1 {
     margin-bottom: 50px;
+}
+.about-text {
+    background-color: white;
+    opacity: 0.9;
 }
 /* ------------------------- О нас ---------------------------- */
 
