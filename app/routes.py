@@ -10,3 +10,13 @@ def index():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+
+@app.route('/naplavlyaemaya_krovlya')
+def naplav():
+    return render_template('naplavlyaemaya.html')
+
+
+@app.route('/price')
+def price():
+    return render_template('price.html')
