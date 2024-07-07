@@ -24,6 +24,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Главная</a>
         <a class="nav-link active" href="{{ url_for('naplav') }}">Наплавляемая кровля</a>
+        <a class="nav-link active" href="{{ url_for('myagkaya') }}">Мягкая кровля</a>
         <a class="nav-link active" href="{{ url_for('price') }}">Цены</a>
         <a class="nav-link active" href="{{ url_for('about') }}">О нас</a>
       </div>
@@ -34,7 +35,27 @@
 {% endblock %}
 <footer>
       <div class="container">
+
           <div class="row">
+              <div class="col-md-6 col-sm-12 mb-4">
+                  <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/193/voronezh/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Воронеж</a><a href="https://yandex.ru/maps/193/voronezh/?azimuth=0.3477023119207489&ll=39.122260%2C51.567175&tilt=0.24340852171408525&utm_medium=mapframe&utm_source=maps&z=17.94" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.ru/map-widget/v1/?azimuth=0.3477023119207489&ll=39.122260%2C51.567175&tilt=0.24340852171408525&z=17.94" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <p class="text-md-start text-center"><a class="link-light link-opacity-50-hover link-underline link-underline-opacity-0" href="{{ url_for('index') }}">Главная</a></p>
+                  <p class="text-md-start text-center"><a class="link-light link-opacity-50-hover link-underline link-underline-opacity-0" href="{{ url_for('naplav') }}">Наплавляемая кровля</a></p>
+                  <p class="text-md-start text-center"><a class="link-light link-opacity-50-hover link-underline link-underline-opacity-0" href="{{ url_for('myagkaya') }}">Мягкая кровля</a></p>
+                  <p class="text-md-start text-center"><a class="link-light link-opacity-50-hover link-underline link-underline-opacity-0" href="{{ url_for('price') }}">Цены</a></p>
+                  <p class="text-md-start text-center"><a class="link-light link-opacity-50-hover link-underline link-underline-opacity-0" href="{{ url_for('about') }}">О нас</a></p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <p class="text-center">Телефоны:</p>
+                  <p class="text-center"> 8 (920) - 469 - 83 - 86</p>
+                  <p class="text-center"> 8 (920) - 424 - 70 - 11</p>
+                  <p class="text-center">Адрес:</p>
+                  <p class="text-md-start text-center">г. Воронеж, ул. Острогожская, д. 170/2</p>
+              </div>
+          </div>
+          <div class="row mt-4">
               <div class="col-12">
                   <h6 class="text-center">АРС-Строй - строительство ещё никогда не было так доступно!</h6>
               </div>
