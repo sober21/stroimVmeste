@@ -1,8 +1,23 @@
 server {
-    listen       80;
-    server_name  localhost;
+    listen 80;
+    server_name stroim-vmeste36.ru www.stroim-vmeste36.ru;
+    return 301 https://stroim-vmeste36.ru$request_uri;
+}
+server {
+    listen       443 ssl;
+    server_name          stroim-vmeste36.ru www.stroim-vmeste36.ru;
+    ssl_certificate      /etc/ssl/stroim-vmeste36.crt;
+    ssl_certificate_key  /etc/ssl/stroim-vmeste36.key;
+    ssl_protocols        TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+    ssl_ciphers          HIGH:!aNULL:!MD5;
+    location /robots.txt {
+        root /data/www;
+    }
+    location /sitemap.xml {
+	root /data/www;
+    }
     location / {
-        proxy_pass   http://flask2:8000;
+        proxy_pass   http://flask1:8000;
     }
 
 }
