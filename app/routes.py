@@ -25,3 +25,8 @@ def myagkaya():
 @app.route('/price')
 def price():
     return render_template('price.html')
+
+
+@app.route('/politika')
+def politika():
+    return render_template('politika.html')
